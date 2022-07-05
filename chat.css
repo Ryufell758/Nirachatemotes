@@ -212,8 +212,8 @@
 
 
 #log .message .container-message-Ryufell07589 {
-    background-image: var(--cyno);
-    background-size: var(--bgSizeCyno);
+    background-image: var(--zhongli);
+    background-size: var(--bgSizeZhongli);
     background-position: var(--top);
 }
 
