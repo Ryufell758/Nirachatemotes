@@ -248,3 +248,9 @@
     background-size: var(--bgSizeYae);
     background-position: var(--center);
 }
+
+#log .message .container-message-Czai16 {
+    background-image: var(--kazuha);
+    background-size: var(--bgSizeKazuha);
+    background-position: var(--BOTTOM);
+}
