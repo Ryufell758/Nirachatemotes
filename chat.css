@@ -204,6 +204,14 @@
     --bgSizeDefault: 30%;
 }
 
+#log .meta-Ryufell07589 {
+    background-color: #701ea4;
+}
+
+#log .meta-niraravane {
+    background-color: #ff0000;
+}
+
 #log .message .container-message {
     background-image: var(--default);
     background-size: var(--bgSizeDefault);
