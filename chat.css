@@ -1,15 +1,236 @@
 :root{
+    /*Posições*/
+    --top:     top right;
+    --center:  center right;
+    --bottom:  bottom right;
     /*GANYU*/
     --ganyu: url(https://ryufell758.github.io/Nirachatemotes/Img/ganyu.png);
-    --bgSizeGanyu: 30%;
+    --bgSizeGanyu: 25%;
 
     /*Aether*/
     --aether: url(https://ryufell758.github.io/Nirachatemotes/Img/aether.png);
-    --bgSizeAether: 18%;
+    --bgSizeAether: 25%;
+    
+    /*Luminie*/
+    --luminie: url(https://ryufell758.github.io/Nirachatemotes/Img/lumine.png);
+    --bgSizeLuminie: 25%;
+
+    /*Ayaka*/
+    --ayaka: url(https://ryufell758.github.io/Nirachatemotes/Img/ayaka.png);
+    --bgSizeAyaka: 25%;
+
+    /*Ayato*/
+    --ayato: url(https://ryufell758.github.io/Nirachatemotes/Img/ayato.png);
+    --bgSizeAyato: 25%;
+
+    /*Baal,Shougun,Raiden*/
+    --baal: url(https://ryufell758.github.io/Nirachatemotes/Img/baal.png);
+    --bgSizeBaal: 25%;
+
+    /*Barbara*/
+    --barbara: url(https://ryufell758.github.io/Nirachatemotes/Img/barbara.png);
+    --bgSizeBarbara: 25%;
+
+    /*Thoma*/
+    --thoma: url(https://ryufell758.github.io/Nirachatemotes/Img/thoma.png);
+    --bgSizeThoma: 25%;
+
+    /*Beidou*/
+    --beidou: url(https://ryufell758.github.io/Nirachatemotes/Img/beidou.png);
+    --bgSizeBeidou: 25%;
+
+    /*Bennett*/
+    --bennett: url(https://ryufell758.github.io/Nirachatemotes/Img/bennet.png);
+    --bgSizeBennet: 25%;
+
+    /*Childe,Tartaglia ----- CENTRO */
+    --childe: url(https://ryufell758.github.io/Nirachatemotes/Img/childe.png);
+    --bgSizeChilde: 25%;
+    
+    /*Chong ----- BOTTOM */
+    --chong: url(https://ryufell758.github.io/Nirachatemotes/Img/chong.png);
+    --bgSizeChong: 25%;
+
+    /*Diluc ----- BOTTOM */
+    --diluc: url(https://ryufell758.github.io/Nirachatemotes/Img/diluc.png);
+    --bgSizeDiluc: 25%;
+
+    /*Diona ----- CENTER */
+    --diona: url(https://ryufell758.github.io/Nirachatemotes/Img/diona.png);
+    --bgSizeDiona: 25%;
+
+    /*Xiangling ----- BOTTOM */
+    --xiangling: url(https://ryufell758.github.io/Nirachatemotes/Img/xiangling.png);
+    --bgSizeXiangling: 25%;
+
+    /*Eula ----- BOTTOM */
+    --eula: url(https://ryufell758.github.io/Nirachatemotes/Img/eula.png);
+    --bgSizeEula: 25%;
+
+    /*Gorou ----- BOTTOM */
+    --gorou: url(https://ryufell758.github.io/Nirachatemotes/Img/gorou.png);
+    --bgSizeGorou: 25%;
+
+    /*Fischl ----- BOTTOM */
+    --fischl: url(https://ryufell758.github.io/Nirachatemotes/Img/fischl.png);
+    --bgSizeFischl: 25%;
+
+    /*Hutao ----- CENTER */
+    --hutao: url(https://ryufell758.github.io/Nirachatemotes/Img/hutao.png);
+    --bgSizeHutao: 23%;
+
+    /*Itto ----- CENTER */
+    --itto: url(https://ryufell758.github.io/Nirachatemotes/Img/itto.png);
+    --bgSizeItto: 20%;
+
+    /*Venti ----- BOTTOM */
+    --venti: url(https://ryufell758.github.io/Nirachatemotes/Img/venti.png);
+    --bgSizeVenti: 25%;
+
+    /*Jean ----- BOTTOM */
+    --jean: url(https://ryufell758.github.io/Nirachatemotes/Img/jean.png);
+    --bgSizeJean: 25%;
+
+    /*Kaeya ----- BOTTOM */
+    --kaeya: url(https://ryufell758.github.io/Nirachatemotes/Img/kaeya.png);
+    --bgSizeKaeya: 25%;
+
+    /*Kazuha ----- BOTTOM */
+    --kazuha: url(https://ryufell758.github.io/Nirachatemotes/Img/kazuha.png);
+    --bgSizeKazuha: 25%;
+
+    /*Keqing ----- BOTTOM */
+    --keqing: url(https://ryufell758.github.io/Nirachatemotes/Img/keqing.png);
+    --bgSizeKeqing: 25%;
+
+    /*Klee ----- CENTER */
+    --klee: url(https://ryufell758.github.io/Nirachatemotes/Img/klee.png);
+    --bgSizeKlee: 25%;
+
+    /*Kokomi ----- BOTTOM */
+    --kokomi: url(https://ryufell758.github.io/Nirachatemotes/Img/kokomi.png);
+    --bgSizeKokomi: 25%;
+
+    /*Kuki ----- BOTTOM */
+    --kuki: url(https://ryufell758.github.io/Nirachatemotes/Img/kuki.png);
+    --bgSizeKuki: 25%;
+
+    /*Lisa ----- BOTTOM */
+    --lisa: url(https://ryufell758.github.io/Nirachatemotes/Img/lisa.png);
+    --bgSizeLisa: 25%;
+
+    /*Albedo ----- BOTTOM */
+    --albedo: url(https://ryufell758.github.io/Nirachatemotes/Img/albedo.png);
+    --bgSizeAlbedo: 25%;
+
+    /*Mona ----- CENTER */
+    --mona: url(https://ryufell758.github.io/Nirachatemotes/Img/mona.png);
+    --bgSizeMona: 25%;
+
+    /*Ningguang ----- BOTTOM */
+    --ningguang: url(https://ryufell758.github.io/Nirachatemotes/Img/ningguang.png);
+    --bgSizeNingguang: 25%;
+
+    /*Noelle ----- BOTTOM */
+    --noelle: url(https://ryufell758.github.io/Nirachatemotes/Img/noelle.png);
+    --bgSizeNoelle: 25%;
+
+    /*Xiao ----- BOTTOM */
+    --xiao: url(https://ryufell758.github.io/Nirachatemotes/Img/xiao.png);
+    --bgSizeXiao: 25%;
+
+    /*Qiqi ----- BOTTOM */
+    --qiqi: url(https://ryufell758.github.io/Nirachatemotes/Img/qiqi.png);
+    --bgSizeQiqi: 25%;
+
+    /*Rosaria ----- BOTTOM */
+    --rosaria: url(https://ryufell758.github.io/Nirachatemotes/Img/rosaria.png);
+    --bgSizeRosaria: 25%;
+
+    /*KujouSara ----- CENTER */
+    --sara: url(https://ryufell758.github.io/Nirachatemotes/Img/sara.png);
+    --bgSizeSara: 25%;
+
+    /*Sayu ----- CENTER */
+    --sayu: url(https://ryufell758.github.io/Nirachatemotes/Img/sayu.png);
+    --bgSizeSayu: 25%;
+
+    /*Shenhe ----- BOTTOM */
+    --shenhe: url(https://ryufell758.github.io/Nirachatemotes/Img/shenhe.png);
+    --bgSizeShenhe: 23%;
+
+    /*Sucrose ----- CENTER */
+    --sucrose: url(https://ryufell758.github.io/Nirachatemotes/Img/sucrose.png);
+    --bgSizeSucrose: 23%;
+
+    /*Xingqiu ----- CENTER */
+    --xingqiu: url(https://ryufell758.github.io/Nirachatemotes/Img/xingqiu.png);
+    --bgSizeXingqiu: 23%;
+
+    /*Xinyan ----- BOTTOM */
+    --xinyan: url(https://ryufell758.github.io/Nirachatemotes/Img/xinyan.png);
+    --bgSizeXinyan: 23%;
+
+    /*Yae ----- BOTTOM */
+    --yae: url(https://ryufell758.github.io/Nirachatemotes/Img/yae.png);
+    --bgSizeYae: 23%;
+
+    /*Yanfei ----- BOTTOM */
+    --yanfei: url(https://ryufell758.github.io/Nirachatemotes/Img/yanfei.png);
+    --bgSizeYanfei: 25%;
+
+    /*Yoimiya ----- BOTTOM */
+    --yoimiya: url(https://ryufell758.github.io/Nirachatemotes/Img/yoimiya.png);
+    --bgSizeYoimiya: 25%;
+
+    /*Yujin ----- BOTTOM */
+    --yujin: url(https://ryufell758.github.io/Nirachatemotes/Img/yujin.png);
+    --bgSizeYujin: 25%;
+
+    /*Zhongli ----- BOTTOM */
+    --zhongli: url(https://ryufell758.github.io/Nirachatemotes/Img/zhongli.png);
+    --bgSizeZhongli: 25%;
+
+    /*Yelan ----- CENTER */
+    --yelan: url(https://ryufell758.github.io/Nirachatemotes/Img/yelan.png);
+    --bgSizeYelan: 25%;
+    
+    /*Cyno ----- CENTER */
+    --cyno: url(https://ryufell758.github.io/Nirachatemotes/cyno.png);
+    --bgSizeCyno: 25%;
+
+    /* DEFAULT */
+    --default: url(https://ryufell758.github.io/Nirachatemotes/default.png);
+    --bgSizeDefault: 30%;
 }
+
+#log .message .container-message {
+    background-image: var(--default);
+    background-size: var(--bgSizeDefault);
+    background-position: var(--center);
+}
+
 
 #log .message .container-message-Ryufell07589 {
-    background-image: var(--aether);
-    background-size: var(--bgSizeAether);
+    background-image: var(--cyno);
+    background-size: var(--bgSizeCyno);
+    background-position: var(--center);
 }
 
+#log .message .container-message-4nt0n1oft {
+    background-image: var(--itto);
+    background-size: var(--bgSizeItto);
+    background-position: var(--center);
+}
+
+#log .message .container-message-niraravane {
+    background-image: var(--klee);
+    background-size: var(--bgSizeKlee);
+    background-position: var(--center);
+}
+
+#log .message .container-message-ErikaC007 {
+    background-image: var(--yae);
+    background-size: var(--bgSizeYae);
+    background-position: var(--center);
+}
