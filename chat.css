@@ -231,32 +231,8 @@
     border: 1px solid #ff9900;
 }
 
-#log .message .container-message-4nt0n1oft {
-    background-image: var(--itto);
-    background-size: var(--bgSizeItto);
-    background-position: var(--center);
-}
-
 #log .message .container-message-niraravane {
     background-image: var(--klee);
     background-size: var(--bgSizeKlee);
     background-position: var(--center);
-}
-
-#log .message .container-message-ErikaC007 {
-    background-image: var(--yae);
-    background-size: var(--bgSizeYae);
-    background-position: var(--center);
-}
-
-#log .message .container-message-Czai16 {
-    background-image: var(--kazuha);
-    background-size: var(--bgSizeKazuha);
-    background-position: var(--BOTTOM);
-}
-
-#log .message .container-message-kelvsss {
-    background-image: var(----mona);
-    background-size: var(--bgSizeMona);
-    background-position: var(--CENTER);
 }
