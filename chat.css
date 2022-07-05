@@ -214,7 +214,7 @@
 #log .message .container-message-Ryufell07589 {
     background-image: var(--zhongli);
     background-size: var(--bgSizeZhongli);
-    background-position: var(--center);
+    background-position: var(--bottom);
 }
 
 #log .message .container-message-4nt0n1oft {
