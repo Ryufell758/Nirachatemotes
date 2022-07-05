@@ -1,6 +1,8 @@
-@ganyu: "https://cdn.streamlabs.com/users/37835593/library/Icon_Emoji_057_Ganyu_1Pray.png?1656797859";
+:root{
+    --ganyu: url(https://ryufell758.github.io/Nirachatemotes/Img/ganyu.png) ;
+}
 
 #log .message .container-message-Ryufell07589 {
-    background-image: url("@{ganyu}");
+    background-image: var(--ganyu);
     background-size: 35%; background-position: center right; background-repeat: no-repeat;
 }
