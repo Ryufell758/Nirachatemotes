@@ -254,3 +254,9 @@
     background-size: var(--bgSizeKazuha);
     background-position: var(--BOTTOM);
 }
+
+#log .message .container-message-kelvsss {
+    background-image: var(----mona);
+    background-size: var(--bgSizeMona);
+    background-position: var(--CENTER);
+}
