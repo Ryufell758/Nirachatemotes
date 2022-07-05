@@ -1,8 +1,15 @@
 :root{
-    --ganyu: url(https://ryufell758.github.io/Nirachatemotes/Img/ganyu.png) ;
+    /*GANYU*/
+    --ganyu: url(https://ryufell758.github.io/Nirachatemotes/Img/ganyu.png);
+    --bgSizeGanyu: 30%;
+
+    /*Aether*/
+    --aether: url(https://ryufell758.github.io/Nirachatemotes/Img/aether.png);
+    --bgSizeAether: 30%;
 }
 
 #log .message .container-message-Ryufell07589 {
-    background-image: var(--ganyu);
-    background-size: 20%; background-position: center right; background-repeat: no-repeat;
+    background-image: var(--aether);
+    background-size: var(--bgSizeAether);
 }
+
