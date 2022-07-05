@@ -208,6 +208,7 @@
     background-image: var(--default);
     background-size: var(--bgSizeDefault);
     background-position: var(--center);
+    border: 1px solid #787878;
 }
 
 
@@ -215,6 +216,7 @@
     background-image: var(--zhongli);
     background-size: var(--bgSizeZhongli);
     background-position: var(--bottom);
+    border: 1px solid #ff9900;
 }
 
 #log .message .container-message-4nt0n1oft {
