@@ -360,8 +360,8 @@
 }
 
 #log .message .container-message-zessh1 {
-    background-image: var(--baal);
-    background-size: var(--bgSizeBaal);
+    background-image: var(--sara);
+    background-size: var(--bgSizeSara);
     background-position: var(--center);
 }
 
