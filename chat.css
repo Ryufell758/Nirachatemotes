@@ -303,3 +303,15 @@
     background-size: var(--bgSizeKlee);
     background-position: var(--center);
 }
+
+#log .message .container-message-Czai16 {
+    background-image: var(--eula);
+    background-size: var(--bgSizeEula);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-Nehanker {
+    background-image: var(--kazuha: );
+    background-size: var(--bgSizeEula);
+    background-position: var(--bgSizeKazuha: );
+}
