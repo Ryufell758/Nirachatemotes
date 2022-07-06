@@ -28,7 +28,7 @@
     --ayato: url(https://ryufell758.github.io/Nirachatemotes/Img/ayato.png);
     --bgSizeAyato: 25%;
 
-    /*Baal,Shougun,Raiden*/
+    /*Baal,Shougun,Raiden -----  BOTTOM*/
     --baal: url(https://ryufell758.github.io/Nirachatemotes/Img/baal.png);
     --bgSizeBaal: 25%;
 
@@ -296,9 +296,9 @@
 
 
 #log .message .container-message-Ryufell07589 {
-    background-image: var(--yelan);
-    background-size: var(--bgSizeYelan);
-    background-position: var(--center);
+    background-image: var(--baal);
+    background-size: var(--bgSizeBaal);
+    background-position: var(--bottom);
 }
 
 #log .message .container-message-niraravane {
@@ -372,7 +372,7 @@
 #log .message .container-message-vitor_max {
     background-image: var(--baal);
     background-size: var(--bgSizeBaal);
-    background-position: var(--center);
+    background-position: var(--bottom);
 }
 
 #log .message .container-message-ErikaC007 {
