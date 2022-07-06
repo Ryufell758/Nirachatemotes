@@ -295,7 +295,7 @@
     background-image: var(--zhongli);
     background-size: var(--bgSizeZhongli);
     background-position: var(--bottom);
-    border: 2px solid #ff9900;
+    border: 4px solid #ff9900;
 }
 
 #log .message .container-message-niraravane {
