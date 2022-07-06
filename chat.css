@@ -9,7 +9,11 @@
     --bgSizeGanyu: 25%;
 
     /*Aether BOTTOM*/
-    --aether: url(https://ryufell758.github.io/Nirachatemotes/Img/aether.png);
+    --aether1: url(https://ryufell758.github.io/Nirachatemotes/Img/aether.png);
+    --bgSizeAether1: 25%;
+
+    /*Aether BOTTOM*/
+    --aether: url(https://ryufell758.github.io/Nirachatemotes/Img/aether1.png);
     --bgSizeAether: 25%;
     
     /*Luminie*/
@@ -323,8 +327,8 @@
 
 
 #log .message .container-message-dextroier_player {
-    background-image: var(--aether);
-    background-size: var(--bgSizeAether);
+    background-image: var(--aether1);
+    background-size: var(--bgSizeAether1);
     background-position: var(--bottom);
 }
 
