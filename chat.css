@@ -352,3 +352,52 @@
     background-size: var(--bgSizeKaeya);
     background-position: var(--bottom);
 }
+
+#log .message .container-message-R4yni {
+    background-image: var(--venti);
+    background-size: var(--bgSizeVenti);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-zessh1 {
+    background-image: var(--baal);
+    background-size: var(--bgSizeBaal);
+    background-position: var(--center);
+}
+
+#log .message .container-message-vitor_max {
+    background-image: var(--baal);
+    background-size: var(--bgSizeBaal);
+    background-position: var(--center);
+}
+
+#log .message .container-message-ErikaC007 {
+    background-image: var(--yae);
+    background-size: var(--bgSizeYae);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-zefirown {
+    background-image: var(--bennett);
+    background-size: var(--bgSizeBennet);
+    background-position: var(--center);
+}
+
+
+#log .message .container-message-semtiro157 {
+    background-image: var(--yoimiya);
+    background-size: var(--bgSizeYoimiya);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-4nt0n1oFT {
+    background-image: var(--childe);
+    background-size: var(--bgSizeChilde);
+    background-position: var(--center);
+}
+
+#log .message .container-message-opru_ {
+    background-image: var(--rosaria);
+    background-size: var(--bgSizeRosaria);
+    background-position: var(--bottom);
+}
