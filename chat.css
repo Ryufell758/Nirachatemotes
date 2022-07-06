@@ -296,9 +296,9 @@
 
 
 #log .message .container-message-Ryufell07589 {
-    background-image: var(--baal);
-    background-size: var(--bgSizeBaal);
-    background-position: var(--bottom);
+    background-image: var(--yelan);
+    background-size: var(--bgSizeYelan);
+    background-position: var(--center);
 }
 
 #log .message .container-message-niraravane {
