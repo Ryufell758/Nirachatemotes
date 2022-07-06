@@ -311,7 +311,7 @@
 }
 
 #log .message .container-message-Nehanker {
-    background-image: var(--kazuha: );
-    background-size: var(--bgSizeEula);
-    background-position: var(--bgSizeKazuha: );
+    background-image: var(--kazuha);
+    background-size: var(--bgSizeKazuha);
+    background-position: var(--bottom);
 }
