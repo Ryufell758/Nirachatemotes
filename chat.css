@@ -384,7 +384,7 @@
 #log .message .container-message-zefirown {
     background-image: var(--bennett);
     background-size: var(--bgSizeBennet);
-    background-position: var(--center);
+    background-position: var(--bottom);
 }
 
 
