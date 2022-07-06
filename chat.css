@@ -8,7 +8,7 @@
     --ganyu: url(https://ryufell758.github.io/Nirachatemotes/Img/ganyu.png);
     --bgSizeGanyu: 25%;
 
-    /*Aether*/
+    /*Aether BOTTOM*/
     --aether: url(https://ryufell758.github.io/Nirachatemotes/Img/aether.png);
     --bgSizeAether: 25%;
     
@@ -299,8 +299,8 @@
 }
 
 #log .message .container-message-niraravane {
-    background-image: var(--klee);
-    background-size: var(--bgSizeKlee);
+    background-image: var(--hutao);
+    background-size: var(--bgSizeHutao);
     background-position: var(--center);
 }
 
@@ -322,16 +322,11 @@
     background-position: var(--bottom);
 }
 
-#log .message .container-message-dextroier_player {
-    background-image: var(--aether);
-    background-size: var(--bgSizeAether);
-    background-position: var(--center);
-}
 
 #log .message .container-message-dextroier_player {
     background-image: var(--aether);
     background-size: var(--bgSizeAether);
-    background-position: var(--center);
+    background-position: var(--bottom);
 }
 
 #log .message .container-message-laix_batista {
@@ -346,11 +341,6 @@
     background-position: var(--bottom);
 }
 
-#log .message .container-message-marscoloficial {
-    background-image: var(--klee);
-    background-size: var(--bgSizeKlee);
-    background-position: var(--center);
-}
 
 #log .message .container-message-marscoloficial {
     background-image: var(--klee);
