@@ -455,3 +455,14 @@
     background-position: var(--bottom);
 }
 
+#log .message .container-message-marcosgplays482 {
+    background-image: var(--aether);
+    background-size: var(--bgSizeAether);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-johnniemrx {
+    background-image: var(--xiao);
+    background-size: var(--bgSizeXiao);
+    background-position: var(--bottom);
+}
