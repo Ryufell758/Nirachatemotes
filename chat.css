@@ -181,6 +181,10 @@
     --yae: url(https://ryufell758.github.io/Nirachatemotes/Img/yae.png);
     --bgSizeYae: 23%;
 
+    /*Yae1 ----- BOTTOM */
+    --yae1: url(https://ryufell758.github.io/Nirachatemotes/yae1.png);
+    --bgSizeYae1: 23%;
+
     /*Yanfei ----- BOTTOM */
     --yanfei: url(https://ryufell758.github.io/Nirachatemotes/Img/yanfei.png);
     --bgSizeYanfei: 25%;
@@ -464,5 +468,17 @@
 #log .message .container-message-johnniemrx {
     background-image: var(--xiao);
     background-size: var(--bgSizeXiao);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-riellblue {
+    background-image: var(--ayato);
+    background-size: var(--bgSizeAyato);
+    background-position: var(--center);
+}
+
+#log .message .container-message-wolfizinn {
+    background-image: var(--yae1);
+    background-size: var(--bgSizeYae1);
     background-position: var(--bottom);
 }
