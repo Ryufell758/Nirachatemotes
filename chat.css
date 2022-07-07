@@ -412,8 +412,14 @@
     background-position: var(--bottom);
 }
 
-#log .message .container-message-Frostmaniaco {
-    background-image: var(--venti);
-    background-size: var(--bgSizeVenti);
+#log .message .container-message-harlysonmarquess {
+    background-image: var(--albedo);
+    background-size: var(--bgSizeAlbedo);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-marqs1407 {
+    background-image: var(--zhongli);
+    background-size: var(--bgSizeZhongli);
     background-position: var(--bottom);
 }
