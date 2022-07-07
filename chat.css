@@ -4,6 +4,7 @@
     --top:     top right;
     --center:  center right;
     --bottom:  bottom right;
+    
     /*GANYU*/
     --ganyu: url(https://ryufell758.github.io/Nirachatemotes/Img/ganyu.png);
     --bgSizeGanyu: 25%;
@@ -423,3 +424,22 @@
     background-size: var(--bgSizeZhongli);
     background-position: var(--bottom);
 }
+
+#log .message .container-message-Frostmaniaco {
+    background-image: var(--venti);
+    background-size: var(--bgSizeVenti);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-NoroiJr {
+    background-image: var(--baal);
+    background-size: var(--bgSizeBaal);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-powermendonca {
+    background-image: var(--zhongli);
+    background-size: var(--bgSizeZhongli);
+    background-position: var(--bottom);
+}
+
