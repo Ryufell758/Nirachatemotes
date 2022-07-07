@@ -482,3 +482,9 @@
     background-size: var(--bgSizeYae1);
     background-position: var(--bottom);
 }
+
+#log .message .container-message-firem4ge {
+    background-image: var(--diona);
+    background-size: var(--bgSizeDiona);
+    background-position: var(--center);
+}
