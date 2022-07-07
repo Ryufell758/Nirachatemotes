@@ -443,3 +443,15 @@
     background-position: var(--bottom);
 }
 
+#log .message .container-message-kelvsss {
+    background-image: var(--ningguang);
+    background-size: var(--bgSizeNingguang);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-Wynnah {
+    background-image: var(--keqing);
+    background-size: var(--bgSizeKeqing);
+    background-position: var(--bottom);
+}
+
