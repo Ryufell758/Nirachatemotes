@@ -474,7 +474,7 @@
 #log .message .container-message-riellblue {
     background-image: var(--ayato);
     background-size: var(--bgSizeAyato);
-    background-position: var(--center);
+    background-position: var(--bottom);
 }
 
 #log .message .container-message-wolfizinn {
