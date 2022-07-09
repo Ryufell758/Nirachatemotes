@@ -488,3 +488,10 @@
     background-size: var(--bgSizeDiona);
     background-position: var(--center);
 }
+
+#log .message .container-message-mailsonxp {
+    background-image: var(--kokomi);
+    background-size: var(--bgSizeKokomi);
+    background-position: var(--bottom);
+}
+
