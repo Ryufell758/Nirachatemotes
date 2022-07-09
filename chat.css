@@ -296,12 +296,12 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IMAGEM DE MENSAGEM USUARIO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*FUNDO PARA QUEM NÂO COMPROU IMAGEM NA LOJA*/
-#log .message .container-message {
+/*#log .message .container-message {
     background-image: var(--default);
     background-size: var(--bgSizeDefault);
     background-position: var(--center);
     border: 1px dashed #787878;
-}
+}*/
 
 #log .message .container-message-streamelements {
     background-image: var(--bot);
