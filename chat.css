@@ -212,6 +212,10 @@
     /* DEFAULT */
     --default: url(https://ryufell758.github.io/Nirachatemotes/Img/default.png);
     --bgSizeDefault: 30%;
+
+    /* BOT */
+    --bot: url(https://ryufell758.github.io/Nirachatemotes/Img1/guardadaruina.png);
+    --bgSizeBot: 30%;
 }
 
 
@@ -296,6 +300,13 @@
     background-image: var(--default);
     background-size: var(--bgSizeDefault);
     background-position: var(--center);
+    border: 1px dashed #787878;
+}
+
+#log .message .container-message-streamelements {
+    background-image: var(--bot);
+    background-size: var(--bgSizeBot);
+    background-position: var(--bottom);
     border: 1px dashed #787878;
 }
 
