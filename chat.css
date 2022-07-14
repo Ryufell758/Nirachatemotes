@@ -1,3 +1,8 @@
+/*Emote Chat Size*/
+#log .message .container-message .emote img {min-height: 30px; min-width: 30px;}
+
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PERSONAGENS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 :root{
     /*Posições*/
