@@ -272,9 +272,13 @@
     background-color: #701ea4;
 }
 
-/*FUNDO DOS NICKS RYU*/
+/*FUNDO DOS NICKS RYU
 #log .meta-Ryufell07589 {
     background-color: #701ea4;
+}*/
+
+#log .meta-Ryufell07589 {
+    background-image: linear-gradient(to left, #fdc300, #fd4806);
 }
 
 /*FUNDO DOS NICKS STREAMER*/
@@ -315,6 +319,10 @@
     background-image: var(--yelan);
     background-size: var(--bgSizeYelan);
     background-position: var(--center);
+    background-color: rgba(28, 28, 28, 0.6);
+    color: white;
+    border: 2px solid orange;
+
 }
 
 #log .message .container-message-niraravane {
