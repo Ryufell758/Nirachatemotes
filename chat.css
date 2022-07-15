@@ -305,12 +305,11 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IMAGEM DE MENSAGEM USUARIO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*FUNDO PARA QUEM NÂO COMPROU IMAGEM NA LOJA*/
-/*#log .message .container-message {
-    background-image: var(--default);
-    background-size: var(--bgSizeDefault);
-    background-position: var(--center);
-    border: 1px dashed #787878;
-}*/
+#log .message .container-message {
+    background-color: rgba(28, 28, 28, 0.6);
+    color: white;
+    border: 2px solid #701ea4;
+}
 
 
 /************MODS**************/
