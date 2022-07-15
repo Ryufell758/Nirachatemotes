@@ -312,6 +312,8 @@
     border: 1px dashed #787878;
 }*/
 
+
+/************MODS**************/
 #log .message .container-message-streamelements {
     background-image: var(--bot);
     background-size: var(--bgSizeBot);
@@ -327,7 +329,24 @@
     background-color: rgba(28, 28, 28, 0.6);
     color: white;
     border: 2px solid orange;
+}
 
+#log .message .container-message-NoroiJr {
+    background-image: var(--baal);
+    background-size: var(--bgSizeBaal);
+    background-position: var(--bottom);
+    background-color: rgba(28, 28, 28, 0.6);
+    color: white;
+    border: 2px solid orange;
+}
+
+#log .message .container-message-Wynnah {
+    background-image: var(--keqing);
+    background-size: var(--bgSizeKeqing);
+    background-position: var(--bottom);
+    background-color: rgba(28, 28, 28, 0.6);
+    color: white;
+    border: 2px solid orange;
 }
 
 #log .message .container-message-niraravane {
@@ -335,6 +354,24 @@
     background-size: var(--bgSizeHutao);
     background-position: var(--center);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #log .message .container-message-Czai16 {
     background-image: var(--eula);
@@ -459,11 +496,6 @@
     background-position: var(--bottom);
 }
 
-#log .message .container-message-NoroiJr {
-    background-image: var(--baal);
-    background-size: var(--bgSizeBaal);
-    background-position: var(--bottom);
-}
 
 #log .message .container-message-powermendonca {
     background-image: var(--zhongli);
@@ -477,11 +509,6 @@
     background-position: var(--bottom);
 }
 
-#log .message .container-message-Wynnah {
-    background-image: var(--keqing);
-    background-size: var(--bgSizeKeqing);
-    background-position: var(--bottom);
-}
 
 #log .message .container-message-marcosgplays482 {
     background-image: var(--aether);
