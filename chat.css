@@ -552,3 +552,11 @@
     background-position: var(--bottom);
 }
 
+#log .message .container-message-Soled_By_Shurek {
+    background-image: var(--yoimiya);
+    background-size: var(--bgSizeYoimiya);
+    background-position: var(--bottom);
+}
+
+
+
