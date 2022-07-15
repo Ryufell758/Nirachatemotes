@@ -9,6 +9,10 @@
     --top:     top right;
     --center:  center right;
     --bottom:  bottom right;
+
+    /*Katherine*/
+    --katheryne: url(https://ryufell758.github.io/Nirachatemotes/Img1/katheryne.png);
+    --bgSizeKatheryne: 25%;
     
     /*GANYU*/
     --ganyu: url(https://ryufell758.github.io/Nirachatemotes/Img/ganyu.png);
@@ -317,8 +321,14 @@
     background-image: var(--bot);
     background-size: var(--bgSizeBot);
     background-position: var(--bottom);
-    border: 1px dashed #787878;
 }
+
+#log .message .container-message-katheryne_bot {
+    background-image: var(--katheryne);
+    background-size: var(--bgSizeKatheryne);
+    background-position: var(--center);
+}
+
 
 
 #log .message .container-message-Ryufell07589 {
