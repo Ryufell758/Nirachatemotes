@@ -310,6 +310,7 @@
 
 
 
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IMAGEM DE MENSAGEM USUARIO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*FUNDO PARA QUEM NÂO COMPROU IMAGEM NA LOJA*/
@@ -382,6 +383,34 @@
 
 
 
+/*VIP LIST*/
+
+#log .message .container-message-wolfizinn {
+    background-image: var(--yae1);
+    background-size: var(--bgSizeYae1);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-Soled_By_Shurek {
+    background-image: var(--yoimiya);
+    background-size: var(--bgSizeYoimiya);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-vitor_max {
+    background-image: var(--baal);
+    background-size: var(--bgSizeBaal);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-zessh1 {
+    background-image: var(--sara);
+    background-size: var(--bgSizeSara);
+    background-position: var(--center);
+}
+
+
+
 
 
 
@@ -446,17 +475,7 @@
     background-position: var(--bottom);
 }
 
-#log .message .container-message-zessh1 {
-    background-image: var(--sara);
-    background-size: var(--bgSizeSara);
-    background-position: var(--center);
-}
 
-#log .message .container-message-vitor_max {
-    background-image: var(--baal);
-    background-size: var(--bgSizeBaal);
-    background-position: var(--bottom);
-}
 
 #log .message .container-message-ErikaC007 {
     background-image: var(--yae);
@@ -545,11 +564,6 @@
     background-position: var(--bottom);
 }
 
-#log .message .container-message-wolfizinn {
-    background-image: var(--yae1);
-    background-size: var(--bgSizeYae1);
-    background-position: var(--bottom);
-}
 
 #log .message .container-message-firem4ge {
     background-image: var(--diona);
@@ -563,10 +577,8 @@
     background-position: var(--bottom);
 }
 
-#log .message .container-message-Soled_By_Shurek {
-    background-image: var(--yoimiya);
-    background-size: var(--bgSizeYoimiya);
-    background-position: var(--bottom);
-}
+
+
+
 
 
