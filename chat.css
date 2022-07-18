@@ -398,15 +398,15 @@
 }
 
 #log .message .container-message-vitor_max {
-    background-image: var(--baal);
-    background-size: var(--bgSizeBaal);
+    background-image: var(--noelle);
+    background-size: var(--bgSizeNoelle);
     background-position: var(--bottom);
 }
 
-#log .message .container-message-zessh1 {
-    background-image: var(--sara);
-    background-size: var(--bgSizeSara);
-    background-position: var(--center);
+#log .message .container-message-Zesshl1I {
+    background-image: var(--kokomi);
+    background-size: var(--bgSizeKokomi);
+    background-position: var(--bottom);
 }
 
 
