@@ -218,6 +218,10 @@
     --cyno: url(https://ryufell758.github.io/Nirachatemotes/cyno.png);
     --bgSizeCyno: 25%;
 
+    /*Dori ----- BOTTOM */
+    --Dori: url(https://ryufell758.github.io/Nirachatemotes/Dori.png);
+    --bgSizeDori: 25%;
+
     /* DEFAULT */
     --default: url(https://ryufell758.github.io/Nirachatemotes/Img/default.png);
     --bgSizeDefault: 30%;
@@ -592,6 +596,12 @@
 #log .message .container-message-AkiraMath {
     background-image: var(--xiao);
     background-size: var(--bgSizeXiao);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-MidnightLui {
+    background-image: var(--Dori);
+    background-size: var(--bgSizeDori);
     background-position: var(--bottom);
 }
 
