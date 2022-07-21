@@ -577,7 +577,23 @@
     background-position: var(--bottom);
 }
 
+#log .message .container-message-MetalContraAsNuvens {
+    background-image: var(--ganyu);
+    background-size: var(--bgSizeGanyu);
+    background-position: var(--bottom);
+}
 
+#log .message .container-message-haru1247 {
+    background-image: var(--eula);
+    background-size: var(--bgSizeEula);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-AkiraMath {
+    background-image: var(--xiao);
+    background-size: var(--bgSizeXiao);
+    background-position: var(--bottom);
+}
 
 
 
