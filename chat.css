@@ -605,6 +605,10 @@
     background-position: var(--bottom);
 }
 
-
+#log .message .container-message-yargod7 {
+    background-image: var(--kaeya);
+    background-size: var(--bgSizeKaeya);
+    background-position: var(--bottom);
+}
 
 
