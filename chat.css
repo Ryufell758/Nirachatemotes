@@ -471,8 +471,8 @@
 }
 
 #log .message .container-message-sorynee {
-    background-image: var(--kaeya);
-    background-size: var(--bgSizeKaeya);
+    background-image: var(--diluc);
+    background-size: var(--bgSizeDiluc);
     background-position: var(--bottom);
 }
 
