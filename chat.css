@@ -614,4 +614,10 @@
     background-position: var(--bottom);
 }
 
+#log .message .container-message-TinkyWinkki {
+    background-image: var(--xingqiu);
+    background-size: var(--bgSizeXingqiu);
+    background-position: var(--center);
+}
+
 
