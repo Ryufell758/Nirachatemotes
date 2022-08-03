@@ -620,4 +620,8 @@
     background-position: var(--center);
 }
 
-
+#log .message .container-message-ponderar {
+    background-image: var(--beidou);
+    background-size: var(--bgSizeBeidou);
+    background-position: var(--center);
+}
