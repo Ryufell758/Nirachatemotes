@@ -625,3 +625,16 @@
     background-size: var(--bgSizeBeidou);
     background-position: var(--center);
 }
+
+#log .message .container-message-Martinn_Arcconi {
+    background-image: var(--kokomi);
+    background-size: var(--bgSizeKokomi);
+    background-position: var(--bottom);
+}
+
+#log .message .container-message-Herrscher_Das_Freiras {
+    background-image: var(--klee);
+    background-size: var(--bgSizeKlee);
+    background-position: var(--center);
+}
+
