@@ -649,3 +649,9 @@
     background-size: var(--bgSizeXiao);
     background-position: var(--bottom);
 }
+
+#log .message .container-message-kintoo4km {
+    background-image: var(--itto);
+    background-size: var(--bgSizeItto);
+    background-position: var(--center);
+}
