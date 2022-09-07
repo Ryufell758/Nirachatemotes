@@ -10,6 +10,10 @@
     --center:  center right;
     --bottom:  bottom right;
 
+    /*VIPEMOTEKEKW*/
+    --niraracalvo: url(https://ryufell758.github.io/Nirachatemotes/Img1/NiraCalvao.png);
+    --bgSizeNiraracalvo: 25%;
+
     /*Katherine*/
     --katheryne: url(https://ryufell758.github.io/Nirachatemotes/Img1/katheryne.png);
     --bgSizeKatheryne: 25%;
@@ -329,11 +333,11 @@
 
 
 /************MODS**************/
-/*#log .message .container-message-streamelements {
-    background-image: var(--bot);
-    background-size: var(--bgSizeBot);
-    background-position: var(--bottom);
-}*/
+#log .message .container-message-streamelements {
+    background-image: var(--niraracalvo);
+    background-size: var(--bgSizeNiraracalvo);
+    background-position: var(--top);
+}
 
 #log .message .container-message-katheryne_bot {
     background-image: var(--katheryne);
