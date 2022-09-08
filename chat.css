@@ -333,11 +333,6 @@
 
 
 /************MODS**************/
-#log .message .container-message-StreamElements {
-    background-image: var(--niraracalvo);
-    background-size: var(--bgSizeNiraracalvo);
-    background-position: var(--top);
-}
 
 #log .message .container-message-katheryne_bot {
     background-image: var(--katheryne);
@@ -1319,3 +1314,9 @@
     background-position: var(--bottom);
 }
 
+
+#log .message .container-message-StreamElements {
+    background-image: var(--niraracalvo);
+    background-size: var(--bgSizeNiraracalvo);
+    background-position: var(--top);
+}
