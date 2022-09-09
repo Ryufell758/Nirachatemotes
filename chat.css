@@ -10,6 +10,26 @@
     --center:  center right;
     --bottom:  bottom right;
 
+    /*Cyno*/
+    --cyno: url(https://ryufell758.github.io/Nirachatemotes/Img1/Cyno.png);
+    --bgSizeCyno: 25%;
+
+    /*Nahida*/
+    --nahida: url(https://ryufell758.github.io/Nirachatemotes/Img1/Nahida.png);
+    --bgSizeNahida: 25%;
+
+    /*Nillou*/
+    --nillou: url(https://ryufell758.github.io/Nirachatemotes/Img1/Nillou.png);
+    --bgSizeNillou: 25%;
+
+    /*Tignari*/
+    --tignari: url(https://ryufell758.github.io/Nirachatemotes/Img1/Tignari.png);
+    --bgSizeTignari: 25%;
+
+
+
+
+
     /*VIPEMOTEKEKW*/
     --niraracalvo: url(https://ryufell758.github.io/Nirachatemotes/Img1/NiraCalvao.png);
     --bgSizeNiraracalvo: 20%;
@@ -218,9 +238,6 @@
     --yelan: url(https://ryufell758.github.io/Nirachatemotes/Img/yelan.png);
     --bgSizeYelan: 25%;
     
-    /*Cyno ----- CENTER */
-    --cyno: url(https://ryufell758.github.io/Nirachatemotes/Img/cyno.png);
-    --bgSizeCyno: 25%;
 
     /*Dori ----- BOTTOM */
     --Dori: url(https://ryufell758.github.io/Nirachatemotes/Img/Dori.png);
@@ -341,8 +358,8 @@
 }
 
 #log .message .container-message-Ryufell07589 {
-    background-image: var(--yelan);
-    background-size: var(--bgSizeYelan);
+    background-image: var(--cyno);
+    background-size: var(--bgSizeCyno);
     background-position: var(--center);
     background-color: rgba(28, 28, 28, 0.6);
     color: white;
