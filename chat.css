@@ -661,9 +661,9 @@
 }
 
 #log .message .container-message-saraiva24 {
-    background-image: var(--xiao);
-    background-size: var(--bgSizeXiao);
-    background-position: var(--bottom);
+    background-image: var(--cyno);
+    background-size: var(--bgSizeCyno);
+    background-position: var(--center);
 }
 
 #log .message .container-message-kintoo4km {
