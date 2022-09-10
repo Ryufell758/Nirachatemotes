@@ -576,9 +576,9 @@
 }
 
 #log .message .container-message-johnniemrx {
-    background-image: var(--xiao);
-    background-size: var(--bgSizeXiao);
-    background-position: var(--bottom);
+    background-image: var(--cyno);
+    background-size: var(--bgSizeCyno);
+    background-position: var(--center);
 }
 
 #log .message .container-message-riellblue {
@@ -631,8 +631,8 @@
 }
 
 #log .message .container-message-TinkyWinkki {
-    background-image: var(--xingqiu);
-    background-size: var(--bgSizeXingqiu);
+    background-image: var(--cyno);
+    background-size: var(--bgSizeCyno);
     background-position: var(--center);
 }
 
