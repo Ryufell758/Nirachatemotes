@@ -10,6 +10,22 @@
     --center:  center right;
     --bottom:  bottom right;
 
+    /*Cyno*/
+    --cyno: url(https://ryufell758.github.io/Nirachatemotes/Img1/Cyno.png);
+    --bgSizeCyno: 25%;
+
+    /*Nahida*/
+    --nahida: url(https://ryufell758.github.io/Nirachatemotes/Img1/Nahida.png);
+    --bgSizeNahida: 25%;
+
+    /*Nillou*/
+    --nillou: url(https://ryufell758.github.io/Nirachatemotes/Img1/Nillou.png);
+    --bgSizeNillou: 25%;
+
+    /*Tignari*/
+    --tignari: url(https://ryufell758.github.io/Nirachatemotes/Img1/Tignari.png);
+    --bgSizeTignari: 25%;
+
     /*Katherine*/
     --katheryne: url(https://ryufell758.github.io/Nirachatemotes/Img1/katheryne.png);
     --bgSizeKatheryne: 25%;
@@ -213,10 +229,6 @@
     /*Yelan ----- CENTER */
     --yelan: url(https://ryufell758.github.io/Nirachatemotes/Img/yelan.png);
     --bgSizeYelan: 25%;
-    
-    /*Cyno ----- CENTER */
-    --cyno: url(https://ryufell758.github.io/Nirachatemotes/Img/cyno.png);
-    --bgSizeCyno: 25%;
 
     /*Dori ----- BOTTOM */
     --Dori: url(https://ryufell758.github.io/Nirachatemotes/Img/Dori.png);
@@ -568,9 +580,9 @@
 }
 
 #log .message .container-message-Leonardo_1603 {
-    background-image: var(--yoimiya);
-    background-size: var(--bgSizeYoimiya);
-    background-position: var(--bottom);
+    background-image: var(--nillou);
+    background-size: var(--bgSizeNillou);
+    background-position: var(--center);
 }
 
 #log .message .container-message-saraiva24 {
