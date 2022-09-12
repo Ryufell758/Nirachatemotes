@@ -1011,8 +1011,8 @@
 }
 
 #log .message .container-message-Ryufell07589 {
-    background-image: var(--yelan);
-    background-size: var(--bgSizeYelan);
+    background-image: var(--cyno);
+    background-size: var(--bgSizeCyno);
     background-position: var(--center);
     background-color: rgba(28, 28, 28, 0.6);
     color: white;
