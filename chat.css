@@ -597,3 +597,10 @@
     background-size: var(--bgSizeNiraracalvo);
     background-position: var(--top);
 }
+
+#log .message .container-message-tadorinkito {
+    background-image: var(--cyno);
+    background-size: var(--bgSizeCyno);
+    background-position: var(--center);
+}
+
