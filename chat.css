@@ -294,12 +294,12 @@
 
 #log .message .container-message-Ryufell07589 {
     background-image: var(--cyno);
-    background-size: var(--bgSizeCyno);
+    /*background-size: var(--bgSizeCyno);*/
+    background-size: 20%;
     background-position: var(--center);
     background-color: rgba(28, 28, 28, 0.6);
     color: white;
     border: 2px solid orange;
-    --bgSizeCyno: 20%;
 }
 
 #log .message .container-message-fronteirabrs {
