@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALERTAS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+        body{
+            background-color: rgb(31, 32, 34);
+            margin: 0;
+            padding: 0;
+            padding-top: 15%;
+        }
+        
+        .ALL{
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .NickName{
+            margin: 0 auto;
+            background-color:rgba(0, 0, 0, 0.65);
+            text-align: center;
+            line-height: 60px;
+            color: white;
+            font-family: 'Ubuntu', serif;
+            font-weight: bold;
+            font-size: 32px;
+            padding: 20px 50px 10px 50px;
+            border-radius: 5px;
+            border: 1px solid #9147ff;
+            z-index:0;
+            position: relative;
+            animation: NickNameanim 1.2s forwards;
+            overflow: hidden;
+        }
+
+        .titlealert{
+            margin: 0 auto;
+            height: 45px;
+            background-color: #9147ff;
+            text-align: center;
+            line-height: 45px;
+            border-radius: 5px;
+            color: white;
+            font-family: 'Ubuntu', serif;
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: -20px;
+            position: relative ;
+            z-index:1;
+            white-space: nowrap;
+            text-align:  center;
+            animation: titlealertanim 1s alternate;
+            width: 65%;
+            overflow: hidden;
+        }
+
+        .NickName span{
+            opacity: 0;
+            animation: titlealertanimtextnick 0.9s forwards 0.9s;
+            color: #9147ff;
+        }
+
+        .titlealert span{
+            opacity: 0;
+            animation: titlealertanimtext 0.5s forwards 0.5s;
+            z-index:4;
+            position: relative;
+        }
+
+        .container-message-tadorinkito{
+            background-image: url("https://ryufell758.github.io/Nirachatemotes/imgF/cyno.png");
+            background-size: 120%;
+            background-position: center top;
+            background-repeat: no-repeat;
+            width: 120px;
+            height: 120px;
+            transform: rotate(-45deg);
+        }
+
+        .avatares{
+            padding-top: 50px;
+            width:fit-content;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .avatar{
+            margin: 0 auto;
+            background-color:rgba(0, 0, 0, 0.65);
+            border-radius: 10px;
+            transform: rotate(45deg);
+            overflow: hidden;
+            float: left;
+        }
+
+        .avatars1{
+            width: 120px;
+            height: 120px;
+            margin-bottom: -50px;
+            animation: avataranim 2s alternate;
+        }
+
+        .avatars2{
+            width: 80px;
+            height: 80px;
+            margin-top: 80px;
+            margin-bottom: -50px;
+            animation: avataranim2 2s alternate;
+
+        }
+
+        .alertContent{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+           
+        }
+
+        .titlealertFix{
+            width: 100%;
+            float: left;
+        }
+
+        
+        @keyframes NickNameanim {
+            from {
+                border: 0px dashed #5947ff;
+                width: 0%;
+            }
+
+            to {
+
+                border: 1px dashed #9147ff;
+                width: 70%;
+            }
+        }
+
+        @keyframes titlealertanim {
+            from {
+                width: 0%;
+                background-color: #5947ff;
+            }
+
+            to {
+                width: 65%;
+                background-color: #9147ff;
+            }
+        }
+
+        @keyframes  titlealertanimtextnick{
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 100;
+            }
+        }
+
+        @keyframes  titlealertanimtext{
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 100;
+            }
+        }
+
+
+        /*ANIMAÇÕES AVATAR*/
+        @keyframes  avataranim2{
+            0% {
+                opacity: 0%;
+                border-radius: 0px;
+            }
+
+            50%{
+                opacity: 0%;
+                border-radius: 0px;
+            }
+
+            100%{
+                opacity: 100%;
+                border-radius: 10px;
+            }
+        }
+
+        @keyframes  avataranim{
+            0% {
+                margin-top: 0px;
+                width: 0px;
+                height: 0px;
+                opacity: 0%;
+                border-radius: 0px;
+            }
+
+            50%{
+                margin-top: 40px;
+                width: 0px;
+                height: 0px;
+                opacity: 0%;
+                border-radius: 0px;
+            }
+
+            100%{
+                margin-top: 0px;
+                width: 120px;
+                height: 120px;
+                opacity: 100%;
+                border-radius: 10px;
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+.bubble{
+  position: absolute;
+  bottom:-100px;
+  width:40px;
+  height: 40px;
+  background-color:#b791f0;
+  border-radius:50%;
+  opacity:0.5;
+  animation: rise 10s infinite ease-in;
+  z-index:3;
+  position: relative;
+}
+.bubble:nth-child(1){
+  width:40px;
+  height:40px;
+  left:10%;
+  animation-duration:8s;
+}
+.bubble:nth-child(2){
+  width:20px;
+  height:20px;
+  left:20%;
+  animation-duration:5s;
+  animation-delay:1s;
+}
+.bubble:nth-child(3){
+  width:50px;
+  height:50px;
+  left:35%;
+  animation-duration:7s;
+  animation-delay:2s;
+}
+.bubble:nth-child(4){
+  width:50px;
+  height:50px;
+  left:50%;
+  animation-duration:11s;
+  animation-delay:0s;
+}
+.bubble:nth-child(5){
+  width:35px;
+  height:35px;
+  left:55%;
+  animation-duration:6s;
+  animation-delay:1s;
+}
+.bubble:nth-child(6){
+  width:45px;
+  height:45px;
+  left:65%;
+  animation-duration:8s;
+  animation-delay:3s;
+}
+.bubble:nth-child(7){
+  width:25px;
+  height:25px;
+  left:70%;
+  animation-duration:12s;
+  animation-delay:2s;
+}
+.bubble:nth-child(8){
+  width:25px;
+  height:25px;
+  left:80%;
+  animation-duration:6s;
+  animation-delay:2s;
+}
+.bubble:nth-child(9){
+  width:15px;
+  height:15px;
+  left:70%;
+  animation-duration:5s;
+  animation-delay:1s;
+}
+.bubble:nth-child(10){
+  width:32px;
+  height:32px;
+  left:25%;
+  animation-duration:10s;
+  animation-delay:4s;
+}
+@keyframes rise{
+  0%{
+    bottom:-100px;
+    transform:translateX(0);
+  }
+  50%{
+    transform:translate(100px);
+  }
+  100%{
+    bottom:1080px;
+    transform:translateX(-200px);
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="ALL">
+        <div class="avatares">
+            <div class="avatar avatars2"></div>
+            <div class="avatar avatars1">
+                <div class="container-message-tadorinkito">
+                </div>
+            </div>
+            <div class="avatar avatars2"></div>
+        </div>
+
+
+
+        <div class="alertContent">
+            <div class="titlealertFix">
+                <div class="titlealert">
+                    <span>
+                        INSCREVEU-SE
+                    </span>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                </div>
+            </div>
+    
+            <div class="NickName">
+                <span>
+                    POWERMENDONCA
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
