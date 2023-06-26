@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Nira Roleta de Overlay</title>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body id="idSuaDiv">
+    <div class="Roleta">
+        <div class="ItemContent">
+            <div class="Categoria1" id="Categoria1" style="display: none;">
+                <iframe  src="https://streamelements.com/overlay/64983ca1e9f44c1d74e453a3/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0"></iframe>
+            </div>
+            <div class="Categoria2" id="Categoria2" style="display: none;">
+                <iframe  src="https://streamelements.com/overlay/6498f5871cd57b0c63cdb931/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0"></iframe>
+            </div>
+        </div>
+        <div class="ItemIcon">
+            <!--Presente Fundo-->
+            <div class="Categoria-1 Presente" style="display: none;">
+                <video playsinline webkit-playsinline autoplay loop muted width="115" height="115" style="margin-left:-20px; margin-top: -17px;">
+                    <source src="Presente_1.webm" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="Categoria-2 BitsIcon" style="display: none;">
+
+            </div>
+        </div>
+    </div>
+
+    <br/><br/><br/><br/>
+    <button id="NextSlide1" onclick="NextSlide()" style="display: none;">Next Slide</button>
+
+
+
+
+    <script language='javascript' type="text/jscript">      
+
+        var container1 = document.querySelector('.Categoria1');
+        var container01 = document.querySelector('.Categoria-1');
+        var container2 = document.querySelector('.Categoria2')
+        var container02 = document.querySelector('.Categoria-2')
+        
+        
+        container2.style.display = "none";
+        container02.style.display = "none";
+        container1.style.display = "block";
+        container01.style.display = "block";
+
+        var currentslide = 0
+
+        
+        setInterval(function(){ document.querySelector('#NextSlide1').click();}, 30000);
+        var Slidecurrent = 0;
+
+        function NextSlide() {
+            if(Slidecurrent === 0){
+                console.log("Sub");
+                container01.style.animation = "fadeOut 1s";
+                container1.style.animation = "fadeOut 1s";
+
+                setTimeout(function(){ 
+                container1.style.display = "none";
+                container01.style.display = "none";
+                }, 800);
+
+                setTimeout(function(){ 
+                container2.style.display = "block";
+                container02.style.display = "block";
+                container02.style.animation = "fadeIn 1s";
+                container2.style.animation = "fadeIn 1s";
+                }, 800);
+                
+                Slidecurrent = 1;
+            }else{
+                Slidecurrent = 0;
+                console.log("Bits");
+            
+                container02.style.animation = "fadeOut 1s";
+                container2.style.animation = "fadeOut 1s";
+
+                setTimeout(function(){ 
+                container2.style.display = "none";
+                container02.style.display = "none";
+                }, 800);
+
+                setTimeout(function(){ 
+                container1.style.display = "block";
+                container01.style.display = "block";
+                container01.style.animation = "fadeIn 1s";
+                container1.style.animation = "fadeIn 1s";
+                }, 800);
+            }
+        }
+        </script>
+
+        
+</body>
+</html>
