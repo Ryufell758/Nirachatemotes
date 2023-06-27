@@ -45,14 +45,14 @@ body{padding: 0px; margin: 0;overflow-x: hidden;}
 }
 
 .Abismo{
-    background-image: url(Nahida.png);
+    background-image: url(icon.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    width: 125%;
-    height: 125%;
-    margin-left: -14px;
-    margin-top: -80px;
+    width: 130%;
+    height: 130%;
+    margin-left: -16px;
+    
 }
 
 .AbismoAtual{
