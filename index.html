@@ -13,22 +13,33 @@
 <body id="idSuaDiv">
     <div class="Roleta">
         <div class="ItemContent">
-            <div class="Categoria1" id="Categoria1" style="display: none;">
-                <iframe  src="https://streamelements.com/overlay/64983ca1e9f44c1d74e453a3/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0"></iframe>
+            <div class="Categoria1" id="Categoria1">
+                
+                <iframe  src="https://ryufell.000webhostapp.com/abyssnameWhite.php" scrolling="off" frameborder ="0"></iframe>
+                <div class="AbismoAtual">
+                    ABISMO ATUAL
+                </div>
             </div>
             <div class="Categoria2" id="Categoria2" style="display: none;">
+                <iframe  src="https://streamelements.com/overlay/64983ca1e9f44c1d74e453a3/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0"></iframe>
+            </div>
+            <div class="Categoria3" id="Categoria2" style="display: none;">
                 <iframe  src="https://streamelements.com/overlay/6498f5871cd57b0c63cdb931/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0"></iframe>
             </div>
         </div>
         <div class="ItemIcon">
             <!--Presente Fundo-->
-            <div class="Categoria-1 Presente" style="display: none;">
+            <div class="Categoria-1 Abismo" style="display: none;">
+                
+            </div>
+
+            <div class="Categoria-2" style="display: none;">
                 <video playsinline webkit-playsinline autoplay loop muted width="115" height="115" style="margin-left:-20px; margin-top: -17px;">
                     <source src="Presente_1.webm" type="video/mp4">
                 </video>
             </div>
 
-            <div class="Categoria-2 BitsIcon" style="display: none;">
+            <div class="Categoria-3 BitsIcon" style="display: none;">
 
             </div>
         </div>
@@ -44,12 +55,19 @@
 
         var container1 = document.querySelector('.Categoria1');
         var container01 = document.querySelector('.Categoria-1');
-        var container2 = document.querySelector('.Categoria2')
-        var container02 = document.querySelector('.Categoria-2')
+
+        var container2 = document.querySelector('.Categoria2');
+        var container02 = document.querySelector('.Categoria-2');
+
+        var container3 = document.querySelector('.Categoria3');
+        var container03 = document.querySelector('.Categoria-3')
         
-        
+        container3.style.display = "none";
+        container03.style.display = "none";
+
         container2.style.display = "none";
         container02.style.display = "none";
+
         container1.style.display = "block";
         container01.style.display = "block";
 
@@ -61,7 +79,6 @@
 
         function NextSlide() {
             if(Slidecurrent === 0){
-                console.log("Sub");
                 container01.style.animation = "fadeOut 1s";
                 container1.style.animation = "fadeOut 1s";
 
@@ -78,10 +95,7 @@
                 }, 800);
                 
                 Slidecurrent = 1;
-            }else{
-                Slidecurrent = 0;
-                console.log("Bits");
-            
+            }else if(Slidecurrent === 1){          
                 container02.style.animation = "fadeOut 1s";
                 container2.style.animation = "fadeOut 1s";
 
@@ -91,11 +105,30 @@
                 }, 800);
 
                 setTimeout(function(){ 
+                container3.style.display = "block";
+                container03.style.display = "block";
+                container03.style.animation = "fadeIn 1s";
+                container3.style.animation = "fadeIn 1s";
+                }, 800);
+
+                Slidecurrent = 2;
+            }else{
+                container03.style.animation = "fadeOut 1s";
+                container3.style.animation = "fadeOut 1s";
+
+                setTimeout(function(){ 
+                container3.style.display = "none";
+                container03.style.display = "none";
+                }, 800);
+
+                setTimeout(function(){ 
                 container1.style.display = "block";
                 container01.style.display = "block";
                 container01.style.animation = "fadeIn 1s";
                 container1.style.animation = "fadeIn 1s";
                 }, 800);
+
+                Slidecurrent = 0;
             }
         }
         </script>
