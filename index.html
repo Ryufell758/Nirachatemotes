@@ -8,23 +8,72 @@
     <title>Nira Roleta de Overlay</title>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<style>
+    .progress2 {
+  padding: 0px;
+  border-radius: 30px;
+}
+
+.progress-bar2 {
+  height: 5px;
+  border-radius: 30px;
+  transition: 0.4s ease-in-out;  
+  transition-property: width, linear-gradient(90deg, rgba(117, 21, 246,1) 0%,rgba(12, 159, 254,1) 100%);   
+}
+
+.progress-moved .progress-bar2 {
+  width: 100%; 
+  background: linear-gradient(90deg, rgba(117, 21, 246,1) 0%,rgba(12, 159, 254,1) 100%);
+  animation: progressAnimation 60s;
+  animation-iteration-count: infinite;
+}
+
+.container {
+  margin: 100px auto;
+  width: 425px;
+  text-align: center;
+}
+
+@keyframes progressAnimationStrike {
+     from { width: 0 }
+     to   { width: 100% }
+}
+
+@keyframes progressAnimation {
+  0%   { width: 1%; background: linear-gradient(90deg, rgba(117, 21, 246,1) 0%,rgba(12, 159, 254,1) 100%); }
+  100% { background: linear-gradient(90deg, rgba(117, 21, 246,1) 0%,rgba(12, 159, 254,1) 100%); }
+}
+</style>
 </head>
+
 
 <body id="idSuaDiv">
     <div class="Roleta">
         <div class="ItemContent">
             <div class="Categoria1" id="Categoria1">
-                
-                <iframe  src="https://ryufell.000webhostapp.com/abyssnameWhite.php" scrolling="off" frameborder ="0" style="overflow-y: hidden;overflow-x: hidden;"></iframe>
+                <iframe  src="https://streamelements.com/overlay/64cad8c6842847ad2fe3a8c9/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0" style="margin-left: -108px; margin-top: -3px;" width="500px"></iframe>
                 <div class="AbismoAtual">
-                    ABISMO ATUAL
                 </div>
             </div>
             <div class="Categoria2" id="Categoria2" style="display: none;">
-                <iframe  src="https://streamelements.com/overlay/64983ca1e9f44c1d74e453a3/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0"></iframe>
+                <iframe  src="https://streamelements.com/overlay/64983ca1e9f44c1d74e453a3/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0" ></iframe>
+                <!--Container Timer-->
+                <div class="container" style="margin-left: -105px; margin-top: -115px;">    
+                    <div class="progress2 progress-moved">
+                      <div class="progress-bar2" >
+                      </div>                       
+                    </div> 
+                  </div>
             </div>
             <div class="Categoria3" id="Categoria2" style="display: none;">
                 <iframe  src="https://streamelements.com/overlay/6498f5871cd57b0c63cdb931/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0"></iframe>
+                <!--Container Timer-->
+                <div class="container" style="margin-left: -105px; margin-top: -115px;">    
+                    <div class="progress2 progress-moved">
+                      <div class="progress-bar2" >
+                      </div>                       
+                    </div> 
+                  </div>
             </div>
         </div>
         <div class="ItemIcon">
@@ -75,7 +124,7 @@
         var currentslide = 0
 
         
-        setInterval(function(){ document.querySelector('#NextSlide1').click();}, 30000);
+        setInterval(function(){ document.querySelector('#NextSlide1').click();}, 8000);
         var Slidecurrent = 0;
 
         function NextSlide() {
