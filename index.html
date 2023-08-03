@@ -43,6 +43,32 @@
   0%   { width: 1%; background: linear-gradient(90deg, rgba(117, 21, 246,1) 0%,rgba(12, 159, 254,1) 100%); }
   100% { background: linear-gradient(90deg, rgba(117, 21, 246,1) 0%,rgba(12, 159, 254,1) 100%); }
 }
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 55px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.Rank1{
+  background-image: url(TopTeste2.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 130%;
+    height: 130%;
+    margin-left: -16px;
+    margin-top: -35px;
+}
 </style>
 </head>
 
@@ -82,21 +108,37 @@
                     </div> 
                   </div>
             </div>
+
+            <div class="Categoria4" id="Categoria2" style="display: none;">
+              <iframe  src="https://streamelements.com/overlay/64ac3e18cb9f252c6b5baddc/oQhUGSth-e6UsM_JmGJuFx63g7vpqOttj-cgUPAYJ6TEQxfk" scrolling="off" frameborder ="0"></iframe>
+              <!--Container Timer-->
+              <div class="container" style="margin-left: -105px; margin-top: -115px;">    
+                  <div class="progress2 progress-moved">
+                    <div class="progress-bar2" >
+                    </div>                       
+                  </div> 
+                </div>
+          </div>
+
         </div>
         <div class="ItemIcon">
             <!--Presente Fundo-->
-            
-            <div class="Categoria-1 Abismo" style="display: none;">
+            <br/>
+            <div class="Categoria-1 Abismo" style="display: none; margin-top: -65px;">
                 
             </div>
 
             <div class="Categoria-2" style="display: none;">
-                <video playsinline webkit-playsinline autoplay loop muted width="115" height="115" style="margin-left:-20px; margin-top: -17px;">
+                <video playsinline webkit-playsinline autoplay loop muted width="115" height="115" style="margin-left:-20px; margin-top: -82px;">
                     <source src="Presente_1.webm" type="video/mp4">
                 </video>
             </div>
 
-            <div class="Categoria-3 BitsIcon" style="display: none;">
+            <div class="Categoria-3 BitsIcon" style="display: none; margin-top: -65px;">
+
+            </div>
+
+            <div class="Categoria-4 Rank1 floating" style="display: none; margin-top: -70px;" >
 
             </div>
         </div>
@@ -117,8 +159,14 @@
         var container02 = document.querySelector('.Categoria-2');
 
         var container3 = document.querySelector('.Categoria3');
-        var container03 = document.querySelector('.Categoria-3')
+        var container03 = document.querySelector('.Categoria-3');
+
+        var container4 = document.querySelector('.Categoria4');
+        var container04 = document.querySelector('.Categoria-4');
         
+        container4.style.display = "none";
+        container04.style.display = "none";
+
         container3.style.display = "none";
         container03.style.display = "none";
 
@@ -131,7 +179,7 @@
         var currentslide = 0
 
         
-        setInterval(function(){ document.querySelector('#NextSlide1').click();}, 58000);
+        setInterval(function(){ document.querySelector('#NextSlide1').click();}, 4000);
         var Slidecurrent = 0;
 
         function NextSlide() {
@@ -169,13 +217,31 @@
                 }, 800);
 
                 Slidecurrent = 2;
-            }else{
+            }else if(Slidecurrent === 2){
                 container03.style.animation = "fadeOut 1s";
                 container3.style.animation = "fadeOut 1s";
 
                 setTimeout(function(){ 
                 container3.style.display = "none";
                 container03.style.display = "none";
+                }, 800);
+
+                setTimeout(function(){ 
+                container4.style.display = "block";
+                container04.style.display = "block";
+                container04.style.animation = "fadeIn 1s";
+                container4.style.animation = "fadeIn 1s";
+                }, 800);
+
+                Slidecurrent = 3;
+            }else{
+              console.log("Passou Aqui");
+              container04.style.animation = "fadeOut 1s";
+              container4.style.animation = "fadeOut 1s";
+
+              setTimeout(function(){ 
+                container4.style.display = "none";
+                container04.style.display = "none";
                 }, 800);
 
                 setTimeout(function(){ 
